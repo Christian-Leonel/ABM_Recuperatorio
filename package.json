@@ -1,0 +1,39 @@
+{
+  "name": "myApp_recuperatorio",
+  "version": "1.0.0",
+  "description": "Recuperatorio",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [],
+  "author": "Christian Leonel Diaz Luna",
+  "license": "ISC",
+  "bugs": {
+    "url": ""
+  },
+  "homepage": "",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cookie-parser": "^1.4.6",
+    "ejs": "^3.1.7",
+    "express": "^4.17.3",
+    "express-session": "^1.17.3",
+    "express-validator": "^6.14.0",
+    "method-override": "^3.0.0",
+    "multer": "^1.4.4",
+    "mysql2": "^2.3.3",
+    "nodemon": "^1.3.3",
+    "sequelize": "^6.21.2",
+    "sequelize-cli": "^6.4.1",
+    "session": "^0.1.0"
+  },
+  "devDependencies": {
+    "sequelize-cli": "^6.4.1"
+  }
+}

@@ -1,0 +1,17 @@
+[
+  {
+    "id": 1654027906135,
+    "name": "Christian",
+    "lastName": "Leonel",
+    "dni": "40683312",
+    "gender": "Masculino",
+    "birthDay": "1997-10-09",
+    "password1": "$2a$10$yDdcJaGf6aSSZrc/dphjk.DCYk5EJHvDL5AKJlH31pBKL9FvqJSZC",
+    "password2": "$2a$10$yDdcJaGf6aSSZrc/dphjk.DCYk5EJHvDL5AKJlH31pBKL9FvqJSZC",
+    "contactNumber": "3513514783456",
+    "email1": "christiandiazluna@gmail.com",
+    "email2": "christiandiazluna@gmail.com",
+    "profilePhoto": ".png",
+    "userClass": "Administrador"
+  }
+]

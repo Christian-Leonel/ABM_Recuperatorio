@@ -1,0 +1,93 @@
+<!-- <header> -->
+
+
+<div class="top-header">
+
+  <div class="nav-section_item">
+    <a href="/">
+      <!-- <img src="/images/.png" /> -->
+      <p>SpaceBike</p>
+    </a>
+  </div>
+
+  <div class="nav-section">
+    <div class="nav-section-list">
+
+      <div class="nav-section-list-links">
+
+
+        <div class="nav-section_item">
+          <a href="#somos-space">Quienes Somos</a>
+        </div>
+
+        <div class="nav-section_item">
+          <a href="#nuestros-productos">Nuestros Productos</a>
+        </div>
+
+        <div class="nav-section_item">
+          <a href="#caracteristicas">Caracteristicas</a>
+        </div>
+
+        <!-- <div class="nav-section_item">
+          <a href="/contact"> CONTACTO </a>
+        </div> -->
+
+
+
+        <div class="top-bar_list">
+          <% if(!locals.session){ %>
+            <li>
+              <a href="../user-login">
+                Ingresar / / Registrarse
+                <i class="fas fa-user"> </i>
+              </a>
+            </li>
+            <%}%>
+              <% if(locals.session){ %>
+                <% if(session.userType !=="Cliente" ){ %>
+                  <li>
+                    <a href="../users">
+                      Usuarios
+                      <i class="fas fa-users"></i>
+                    </a>
+                  </li>
+
+                  <%}%>
+                    <%}%>
+        </div>
+        </ul>
+        <% if(locals.session){ %>
+          <div class="topbar-user_main-container">
+            <div class="top-bar_user-profile_avatar-container">
+              <a href="../user-profile/<%=session.id%>">
+                <img class="top-bar_user-profile_avatar" src="/images/users/<%= session.avatar%>">
+              </a>
+            </div>
+
+            <div class="top-bar_user-profile_data-container">
+              <p class="top-bar_user-profile-info">
+                <%=session.name%>
+              </p>
+            </div>
+
+            <%}%>
+          </div>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="burger-menu">
+    <i class="fa fa-bars burger"> </i>
+  </div>
+
+</div>
+</div>
+
+
+</div>
+
+
+
+
+</header>
